@@ -1,20 +1,28 @@
-$main-color: olive;
+@import url("https://fonts.googleapis.com/css?family=Gaegu");
 
 body {
-  background-color: $main-color;
+  background-color: olive;
+  font-family: "Gaegu", cursive;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  color: khaki;
 }
 
 .row {
   display: flex;
+  justify-content: center;
 }
 .col {
-  width: 30px;
-  height: 30px;
-  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  border: 2px solid darkslategrey;
   margin: 1px;
 }
 .col.checked {
-  background-color: beige;
+  background-color: #dac292;
 }
 .reset {
   display: none;
