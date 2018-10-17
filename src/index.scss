@@ -1,5 +1,28 @@
-$main-color: skyblue;
+$main-color: olive;
 
 body {
   background-color: $main-color;
 }
+
+.row {
+  display: flex;
+}
+.col {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  margin: 1px;
+}
+.col.checked {
+  background-color: beige;
+}
+.reset {
+  display: none;
+}
+.reset.show {
+  display: inline-block;
+}
+// 위 두 코드는 같은 것
+// .reset:not(.show) {
+//   display: none;
+// }
