@@ -24,10 +24,20 @@ body {
 .col.checked {
   background-color: #dac292;
 }
+.wrapper {
+  color: #dac292;
+  font-size: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
 .reset {
   display: none;
 }
 .reset.show {
+  background-color: #dac292;
+  color: olive;
+  border-radius: 10px;
   display: inline-block;
 }
 // 위 두 코드는 같은 것
